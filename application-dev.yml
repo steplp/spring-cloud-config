@@ -3,6 +3,10 @@ spring:
     name: spring-cloud-provider
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+<<<<<<< HEAD
     url: jdbc:mysql://localhost:3306/spring_cloud_03?useUnicode=true&characterEncoding=utf8
+=======
+    url: jdbc:mysql://localhost:3306/spring_cloud_02?useUnicode=true&characterEncoding=utf8
+>>>>>>> 11045ec4f8efb99c684c08c4fffa3c61247b93d2
     username: root
     password: root
