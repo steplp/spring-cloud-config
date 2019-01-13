@@ -1,4 +1,8 @@
 spring:
-  profiles: test
   application:
-    name: spring-cloud-config-test
+    name: spring-cloud-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_cloud_02?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
